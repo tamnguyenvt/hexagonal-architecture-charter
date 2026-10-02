@@ -1,0 +1,64 @@
+[
+  {
+    "kind": "skill",
+    "id": "cw-author",
+    "description": "Author a new primitive of this repository's charter, asking cw what its kind requires.",
+    "file": ".cw/out/skill/cw-author/index.md"
+  },
+  {
+    "kind": "guide",
+    "id": "driven-port-speaks-its-adapter",
+    "description": "Name what crosses a driven port after what its adapter deals in, never after a domain concept.",
+    "file": ".cw/out/guide/driven-port-speaks-its-adapter/index.md",
+    "globs": [
+      "src/hexagon/port/zdriven/**"
+    ]
+  },
+  {
+    "kind": "agent",
+    "id": "hexagon-initializer",
+    "description": "Initialise a hexagonal architecture in the folder whose path it is given, then fit it to that project.",
+    "file": ".cw/out/agent/hexagon-initializer/index.md"
+  },
+  {
+    "kind": "agent",
+    "id": "hexagon-reviewer",
+    "description": "Check the files a hexagonal init wrote against every guide that applies to them, and name each breach with its fix; changes nothing.",
+    "file": ".cw/out/agent/hexagon-reviewer/index.md"
+  },
+  {
+    "kind": "guide",
+    "id": "hexagonal-architecture",
+    "description": "The layers of a hexagonal codebase, what each may import, and where a new file belongs.",
+    "file": ".cw/out/guide/hexagonal-architecture/index.md",
+    "globs": [
+      "src/**",
+      "main.ts",
+      "main.js"
+    ]
+  },
+  {
+    "kind": "skill",
+    "id": "init-hexagon",
+    "description": "Ask the user what a hexagonal setup needs — folder, language (TypeScript or JavaScript only), dependency-cruiser, example, overwrite — show the plan, and start only once they confirm.",
+    "file": ".cw/out/skill/init-hexagon/index.md"
+  },
+  {
+    "kind": "script",
+    "id": "scaffold-hexagon",
+    "description": "Scaffold a hexagonal architecture (driver / hexagon / zdriven), in TypeScript or JavaScript, into the folder it is given.",
+    "file": ".cw/out/script/scaffold-hexagon/index.md"
+  },
+  {
+    "kind": "corpus",
+    "id": "why-driven-port-speaks-its-adapter",
+    "description": "Why a driven port carries no domain knowledge.",
+    "file": ".cw/out/corpus/why-driven-port-speaks-its-adapter/index.md"
+  },
+  {
+    "kind": "corpus",
+    "id": "why-hexagonal-architecture",
+    "description": "Why the code is split into driver, hexagon and zdriven, and why the arrows between them point inward.",
+    "file": ".cw/out/corpus/why-hexagonal-architecture/index.md"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "description": "The hexagonal guides come up on the code they speak about.",
+  "cases": [
+    {
+      "do": {
+        "touchFile": "src/hexagon/application/OrderTaking.ts"
+      },
+      "expect": {
+        "activate": "hexagonal-architecture"
+      }
+    },
+    {
+      "do": {
+        "touchFile": "main.ts"
+      },
+      "expect": {
+        "activate": "hexagonal-architecture"
+      }
+    },
+    {
+      "do": {
+        "touchFile": "main.js"
+      },
+      "expect": {
+        "activate": "hexagonal-architecture"
+      }
+    },
+    {
+      "do": {
+        "touchFile": "src/hexagon/port/zdriven/ForReadingFiles.ts"
+      },
+      "expect": {
+        "activate": "driven-port-speaks-its-adapter"
+      }
+    }
+  ]
+}
