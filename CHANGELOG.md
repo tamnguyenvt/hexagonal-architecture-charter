@@ -1,7 +1,8 @@
 # Changelog
 
-## Unreleased
+## 0.1.1 — 2026-10-06
 
+- Rebuilt with the latest `cw`.
 - **Breaking:** needs a Cherry Works that names primitives by id alone; the skill is now `/init-hexagon`, its script `scaffold-hexagon`, and the corpora `why-<guide>`.
 
 ## 0.1.0 — 2026-10-02

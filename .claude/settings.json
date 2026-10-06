@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \".cw/out/script/cw-session-tokens-counter/sessionTokensCounter.mjs\""
+          }
+        ]
+      }
+    ]
+  }
+}
