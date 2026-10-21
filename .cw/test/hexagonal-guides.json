@@ -32,6 +32,30 @@
       "expect": {
         "activate": "driven-port-speaks-its-adapter"
       }
+    },
+    {
+      "do": {
+        "touchFile": "src/hexagon/application/SigningIn.ts"
+      },
+      "expect": {
+        "activate": "hexagonal-naming"
+      }
+    },
+    {
+      "do": {
+        "touchFile": "src/hexagon/domain/models/DomainFault.ts"
+      },
+      "expect": {
+        "activate": "hexagonal-naming"
+      }
+    },
+    {
+      "do": {
+        "touchFile": "main.ts"
+      },
+      "expect": {
+        "activate": "hexagonal-naming"
+      }
     }
   ]
 }
